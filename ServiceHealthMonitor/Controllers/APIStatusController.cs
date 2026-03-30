@@ -15,6 +15,7 @@ namespace ServiceHealthMonitor.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [AllowAnonymous]
     public class APIStatusController : ControllerBase
     {
         private readonly ILogger<APIStatusController> _logger;
