@@ -7,6 +7,7 @@ namespace ServiceHealthMonitor.Controllers
 {
     [Route("api")]
     [ApiController]
+    [AllowAnonymous]
     public class ServiceHistoryController : Controller
     {
         private readonly ILogger<ServiceHistoryController> _logger;
